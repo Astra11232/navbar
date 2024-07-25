@@ -1,0 +1,41 @@
+.logo{
+    margin-right: 30%;
+}
+.button{
+    background-color: rgb(97, 171, 171);
+    border-radius: 20px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+@media only screen and (min-width: 1000px) {
+    .nav-search {
+            width: 400px;
+        }
+}
+.bod{
+    width: 100%;
+    height: 1000px;
+}
+body{
+    background-color: darkblue;
+}
+
+header{
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.button:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    transform: scale(1.1);
+}
+.button i{
+    transition: 0.5s;
+}
+.button:hover i {
+    transform:translateX(20px) rotate(180deg) ;
+}
